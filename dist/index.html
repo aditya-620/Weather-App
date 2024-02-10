@@ -7,7 +7,35 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="bg-slate-500">
-    <h1 class="text-2xl text-white">hello</h1>
+    <div class="w-96 bg-gradient-to-r from-cyan-500 to-blue-500 text-white mt-24 mr-auto ml-auto mb-0 rounded-2xl p-35 text-center flex flex-col items-center justify-center">
+        <div class="flex items-center justify-around mt-4">
+            <input class="border-0 outline-0 bg-[#ebfffc] text-[#555] p-2 rounded-3xl flex-1 mr-4 text-sm font-semibold" type="text" placeholder="enter city name" spellcheck="false">
+            <button class="border-0 outline-0 bg-white w-14 h-10 cursor-pointer rounded-full"><img class="size-4  ml-5" src="images/search.png" alt="search icon"></button>
+
+        </div>
+        <div class="weather flex flex-col">
+            <img class="weather-icon size-64 ml-5 mr-0" src="images/rain.png" alt="">
+            <p class="temp text-8xl mb-2 font-bold">22°C</p>
+            <p class="city text-4xl mb-2 font-bold">New York</p>
+            <div class="details flex items-center justify-around pt-0 pb-0 pl-5 pr-5 mt-12">
+                <div class="col flex flex-rows text-left">
+                    <img class="m-3 size-10" src="images/humidity.png" alt="">
+                    <div>
+                        <p class="humidity text-lg">50%</p>
+                        <p class="text-lg">Humidity</p>
+                    </div>
+                </div>
+                <div class="col flex flex-row text-left">
+                    <img class="m-3 size-10" src="images/wind.png" alt="">
+                    <div>
+                        <p class="wind text-lg">15 km/h</p>
+                        <p class="text-lg">wind speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
-</html>
+</html> 
